@@ -1,0 +1,14 @@
+.idea/*
+!.idea/runConfigurations/
+
+*.bak
+*.log
+*.class
+*.jar
+
+!gradle-wrapper.jar
+
+**/build/
+.gradle/
+
+*.mwb

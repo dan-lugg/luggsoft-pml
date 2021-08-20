@@ -1,0 +1,646 @@
+{
+    "_type": ".CTestNode",
+    "childTestNodes": [
+        {
+            "_type": ".BTestNode",
+            "childTestNodes": [
+                {
+                    "_type": ".ATestNode",
+                    "childTestNodes": [
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".BTestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".CTestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".BTestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "_type": ".BTestNode",
+                    "childTestNodes": [
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "_type": ".CTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "_type": ".CTestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "_type": ".CTestNode",
+                    "childTestNodes": [
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".BTestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".CTestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "_type": ".CTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".CTestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": [
+                                                                {
+                                                                    "_type": ".CTestNode",
+                                                                    "childTestNodes": [
+                                                                        {
+                                                                            "_type": ".BTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".CTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".CTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".CTestNode",
+                                                                            "childTestNodes": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".CTestNode",
+                                                                    "childTestNodes": [
+                                                                        {
+                                                                            "_type": ".BTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".BTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".CTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".BTestNode",
+                                                                            "childTestNodes": [
+                                                                                {
+                                                                                    "_type": ".BTestNode",
+                                                                                    "childTestNodes": []
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "_type": ".ATestNode",
+                                                                            "childTestNodes": [
+                                                                                {
+                                                                                    "_type": ".ATestNode",
+                                                                                    "childTestNodes": []
+                                                                                },
+                                                                                {
+                                                                                    "_type": ".BTestNode",
+                                                                                    "childTestNodes": []
+                                                                                },
+                                                                                {
+                                                                                    "_type": ".CTestNode",
+                                                                                    "childTestNodes": []
+                                                                                },
+                                                                                {
+                                                                                    "_type": ".ATestNode",
+                                                                                    "childTestNodes": [
+                                                                                        {
+                                                                                            "_type": ".CTestNode",
+                                                                                            "childTestNodes": []
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": [
+                                                                {
+                                                                    "_type": ".CTestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".BTestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".BTestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".BTestNode",
+                                                                    "childTestNodes": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".BTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".CTestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".BTestNode",
+                                    "childTestNodes": []
+                                }
+                            ]
+                        },
+                        {
+                            "_type": ".ATestNode",
+                            "childTestNodes": []
+                        }
+                    ]
+                },
+                {
+                    "_type": ".BTestNode",
+                    "childTestNodes": [
+                        {
+                            "_type": ".BTestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".BTestNode",
+                            "childTestNodes": []
+                        },
+                        {
+                            "_type": ".CTestNode",
+                            "childTestNodes": [
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": []
+                                },
+                                {
+                                    "_type": ".ATestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".BTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".ATestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".BTestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".BTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": [
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": [
+                                                                        {
+                                                                            "_type": ".BTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".CTestNode",
+                                                                            "childTestNodes": []
+                                                                        },
+                                                                        {
+                                                                            "_type": ".ATestNode",
+                                                                            "childTestNodes": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".BTestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".BTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "_type": ".CTestNode",
+                                    "childTestNodes": [
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".CTestNode",
+                                                            "childTestNodes": [
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                },
+                                                                {
+                                                                    "_type": ".ATestNode",
+                                                                    "childTestNodes": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".BTestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".BTestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": [
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        },
+                                                        {
+                                                            "_type": ".ATestNode",
+                                                            "childTestNodes": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".BTestNode",
+                                            "childTestNodes": [
+                                                {
+                                                    "_type": ".ATestNode",
+                                                    "childTestNodes": []
+                                                },
+                                                {
+                                                    "_type": ".CTestNode",
+                                                    "childTestNodes": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "_type": ".CTestNode",
+                                            "childTestNodes": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "_type": ".CTestNode",
+                            "childTestNodes": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

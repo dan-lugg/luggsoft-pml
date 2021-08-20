@@ -1,0 +1,7 @@
+dependencies {
+    implementation(
+            "org.springframework:spring-context",
+            project(":pml-core"),
+            project(":pml-spring"),
+    )
+}
