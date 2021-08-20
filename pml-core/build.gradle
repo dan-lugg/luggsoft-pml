@@ -1,0 +1,7 @@
+dependencies {
+    implementation(
+            "com.github.h0tk3y.betterParse:better-parse:0.4.2",
+            "org.jetbrains.kotlin:kotlin-script-runtime",
+            "org.jetbrains.kotlin:kotlin-scripting-jsr223",
+    )
+}

@@ -1,0 +1,70 @@
+/**
+https://www.bottlecaps.de/rr/ui
+**/
+
+Selector
+  ::= SelectorElement*
+
+SelectorElement
+  ::= FlatSelectorElement
+    | DeepSelectorElement
+
+FlatSelectorElement
+  ::= '>' ElementMatcher
+
+DeepSelectorElement
+  ::= '~' ElementMatcher
+
+ElementMatcher
+  ::= NameElementMatcher
+    | DeepElementMatcher
+
+NameElementMatcher
+  ::= Char* ( '{' Expression '}' )?
+
+DeepElementMatcher
+  ::= '*' ( '{' Expression '}' )?
+
+/**
+----------------
+**/
+
+NumberToken
+  ::= IntOrLongNumberToken
+    | FloatOrDoubleNumberToken
+
+IntOrLongNumberToken
+  ::= TODO
+
+FloatOrDoubleNumberToken
+  ::= TODO
+
+StringToken
+  ::= TODO
+
+BooleanToken
+  ::= 'true'
+    | 'false'
+
+/**
+----------------
+**/
+
+ScopedExpression
+  ::= Expression '.' MemberExpression
+
+CompareRelativeExpression
+  ::= ScopedExpression ( '<' | '>' | '<=' | '>=' ) ScopedExpression
+
+CompareAbsoluteExpression
+  ::= CompareRelativeExpression ( '==' | '!=' ) CompareRelativeExpression
+
+LogicalConjunctExpression
+  ::= CompareAbsoluteExpression '&&' CompareAbsoluteExpression
+
+LogicalDisjunctExpression
+  ::= LogicalConjunctExpression '||' LogicalConjunctExpression
+
+Expression
+  ::= LogicalDisjunctExpression
+    | TODO

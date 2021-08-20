@@ -1,0 +1,81 @@
+plugins {
+    id "io.spring.dependency-management" apply false
+    id "org.jetbrains.kotlin.jvm" apply false
+    id "org.jetbrains.kotlin.plugin.allopen" apply false
+    id "org.jetbrains.kotlin.plugin.jpa" apply false
+    id "org.jetbrains.kotlin.plugin.noarg" apply false
+    id "org.jetbrains.kotlin.plugin.spring" apply false
+}
+
+apply from: "dependencies.gradle"
+
+allprojects {
+    group "com.luggsoft.findr"
+    version "1.0-SNAPSHOT"
+}
+
+subprojects {
+    apply plugin: "idea"
+    apply plugin: "io.spring.dependency-management"
+    apply plugin: "java"
+    apply plugin: "org.jetbrains.kotlin.jvm"
+    apply plugin: "org.jetbrains.kotlin.plugin.allopen"
+    apply plugin: "org.jetbrains.kotlin.plugin.jpa"
+    apply plugin: "org.jetbrains.kotlin.plugin.noarg"
+    apply plugin: "org.jetbrains.kotlin.plugin.spring"
+
+    sourceSets {
+        example {
+            // TODO
+        }
+    }
+
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2"
+        }
+        maven {
+            url "https://repo.spring.io/milestone"
+        }
+    }
+
+    dependencyManagement {
+        dependencies {
+            libraries.each { library -> dependency library }
+        }
+    }
+
+    dependencies {
+        implementation(
+                sourceSets.example.output,
+                "ch.qos.logback:logback-classic",
+                "com.fasterxml.jackson.core:jackson-annotations",
+                "com.fasterxml.jackson.core:jackson-core",
+                "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
+                "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+                "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+                "com.fasterxml.jackson.module:jackson-module-kotlin",
+                "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+                "org.reflections:reflections",
+        )
+
+        testImplementation(
+                "junit:junit:4.12",
+        )
+    }
+
+    compileKotlin {
+        kotlinOptions {
+            jvmTarget = "1.8"
+            languageVersion = "1.4"
+        }
+    }
+
+    compileTestKotlin {
+        kotlinOptions {
+            jvmTarget = "1.8"
+            languageVersion = "1.4"
+        }
+    }
+}
