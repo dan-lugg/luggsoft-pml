@@ -61,8 +61,12 @@ subprojects {
         )
 
         testImplementation(
-                "junit:junit:4.12",
+                "org.junit.jupiter:junit-jupiter",
         )
+    }
+
+    test {
+        useJUnitPlatform()
     }
 
     compileKotlin {
