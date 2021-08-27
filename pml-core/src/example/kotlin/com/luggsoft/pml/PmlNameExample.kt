@@ -1,9 +1,9 @@
-package com.luggsoft.pml.example
+package com.luggsoft.pml
 
 fun PmlNameExample()
 {
-    class Example
-    {
-        // TODO: Example
-    }
+    /*
+    @PmlName("MyNode")
+    class MyNode
+    */
 }

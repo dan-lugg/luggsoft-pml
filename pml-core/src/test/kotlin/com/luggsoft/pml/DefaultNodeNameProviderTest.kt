@@ -1,5 +1,6 @@
 package com.luggsoft.pml
 
+import com.luggsoft.pml.core.naming.DefaultNodeNameProvider
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 

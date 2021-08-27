@@ -1,7 +1,7 @@
 package com.luggsoft.pml
 
-import com.luggsoft.pml.internal.SelectorElement
-import com.luggsoft.pml.internal.Specificity
+import com.luggsoft.pml.core.Specificity
+import com.luggsoft.pml.core.ast.SelectorElement
 
 /**
  * Represents a query selector.
@@ -12,7 +12,7 @@ interface Selector
     /**
      * The specificity of this selector.
      *
-     * @see com.luggsoft.pml.internal.Specificity
+     * @see com.luggsoft.pml.core.Specificity
      */
     val specificity: Specificity
 

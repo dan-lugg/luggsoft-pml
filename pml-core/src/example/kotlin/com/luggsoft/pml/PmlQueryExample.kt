@@ -1,9 +1,9 @@
-package com.luggsoft.pml.example
+package com.luggsoft.pml
 
 fun PmlQueryExample()
 {
-    class Example
-    {
-        // TODO: Example
-    }
+    /*
+    @PmlQuery("~ MyNode")
+    class MyHandler
+    */
 }

@@ -26,8 +26,16 @@ subprojects {
 
     sourceSets {
         example {
-            // TODO
+            kotlin {
+                // compileClasspath += main.output
+                // runtimeClasspath += main.output
+            }
         }
+    }
+
+    configurations {
+        exampleCompile.extendsFrom testCompile
+        exampleRuntime.extendsFrom testRuntime
     }
 
     repositories {
