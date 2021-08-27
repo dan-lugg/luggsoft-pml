@@ -26,8 +26,16 @@ subprojects {
 
     sourceSets {
         example {
-            // TODO
+            kotlin {
+                // compileClasspath += main.output
+                // runtimeClasspath += main.output
+            }
         }
+    }
+
+    configurations {
+        exampleCompile.extendsFrom testCompile
+        exampleRuntime.extendsFrom testRuntime
     }
 
     repositories {
@@ -61,8 +69,12 @@ subprojects {
         )
 
         testImplementation(
-                "junit:junit:4.12",
+                "org.junit.jupiter:junit-jupiter",
         )
+    }
+
+    test {
+        useJUnitPlatform()
     }
 
     compileKotlin {

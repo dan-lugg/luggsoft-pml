@@ -25,4 +25,6 @@ rootProject.name = "pml"
 
 include(
         "pml-core",
+        "pml-spring",
+        "pml-examples",
 )
