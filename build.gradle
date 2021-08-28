@@ -10,8 +10,28 @@ plugins {
 apply from: "dependencies.gradle"
 
 allprojects {
-    group "com.luggsoft.findr"
+    apply plugin: "maven-publish"
+
+    group "com.luggsoft.pml"
     version "1.0-SNAPSHOT"
+
+    publishing {
+        repositories {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/dan-lugg/pml")
+                credentials {
+                    username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                    password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                }
+            }
+        }
+        publications {
+            gpr(MavenPublication) {
+                from(components.java)
+            }
+        }
+    }
 }
 
 subprojects {
