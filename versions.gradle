@@ -7,12 +7,13 @@ static def buildLibraries(Map<String, Object> libraryVersionMapping) {
 
 ext.versions = [
         "betterParse"   : "0.4.2",
-        "jackson"       : "2.12.3",
+        "foojayResolver": "0.8.0",
+        "jackson"       : "2.17.1",
         "junitJupiter"  : "5.7.0",
-        "kotlin"        : "1.5.21",
+        "kotlin"        : "1.9.24",
         "ktCommon"      : "0.1.0",
-        "logbackClassic": "1.2.3",
-        "reflections"   : "0.9.11",
+        "logbackClassic": "1.5.6",
+        "reflections"   : "0.10.2",
         "spring"        : "5.3.9",
 ]
 

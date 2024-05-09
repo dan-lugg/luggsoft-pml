@@ -1,5 +1,5 @@
 pluginManagement {
-    def kotlinVersion = "1.5.10"
+    apply from: "${rootProject.projectDir}/versions.gradle"
 
     repositories {
         maven {
@@ -11,13 +11,15 @@ pluginManagement {
     }
 
     plugins {
+        id "com.github.ben-manes.versions" version "0.51.0"
         id "io.spring.dependency-management" version "1.0.11.RELEASE"
         id "java"
-        id "org.jetbrains.kotlin.jvm" version "$kotlinVersion"
-        id "org.jetbrains.kotlin.plugin.allopen" version "$kotlinVersion"
-        id "org.jetbrains.kotlin.plugin.jpa" version "$kotlinVersion"
-        id "org.jetbrains.kotlin.plugin.noarg" version "$kotlinVersion"
-        id "org.jetbrains.kotlin.plugin.spring" version "$kotlinVersion"
+        id "org.gradle.toolchains.foojay-resolver-convention" version "${versions.foojayResolver}"
+        id "org.jetbrains.kotlin.jvm" version "${versions.kotlin}"
+        id "org.jetbrains.kotlin.plugin.allopen" version "${versions.kotlin}"
+        id "org.jetbrains.kotlin.plugin.jpa" version "${versions.kotlin}"
+        id "org.jetbrains.kotlin.plugin.noarg" version "${versions.kotlin}"
+        id "org.jetbrains.kotlin.plugin.spring" version "${versions.kotlin}"
     }
 }
 
