@@ -161,7 +161,7 @@ The selector specificity is implemented as a 3-value type, in order to allow for
 For example the following selectors both target `BNode` with differing specificity.
 
 ```
-~ ANode 
+~ BNode 
 ```
 
 This selector has a specificity of `(a=1, b=10, c=0)`
@@ -171,7 +171,7 @@ This selector has a specificity of `(a=1, b=10, c=0)`
 - There are no expressions so `c` remains `0`.
 
 ```
-~ BNode > CNode
+~ ANode > BNode
 ```
 
 This selector has a specificity of `(a=11, b=20, c=1)`
