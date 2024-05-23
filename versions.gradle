@@ -6,7 +6,7 @@ static def buildLibraries(Map<String, Object> libraryVersionMapping) {
 }
 
 ext.versions = [
-        "betterParse"   : "0.4.2",
+        "betterParse"   : "0.4.4",
         "foojayResolver": "0.8.0",
         "jackson"       : "2.17.1",
         "junitJupiter"  : "5.7.0",
